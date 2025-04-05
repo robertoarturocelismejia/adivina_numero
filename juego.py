@@ -3,7 +3,7 @@
 from utils import generar_numero_aleatorio
 def jugar():
 """ Función principal que ejecuta el juego de adivinar el número. """
-print("Estoy pensando en un número del 1 al 10. ¿Puedes adivinarlo?")
+print("Estoy pensando, y es en un número del 1 al 10. ¿Puedes adivinarlo?")
 numero_secreto = generar_numero_aleatorio(1, 10)
 intentos = 0
 adivinado = False
